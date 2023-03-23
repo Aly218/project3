@@ -172,7 +172,6 @@ li{
   margin: 48px;
   border: 3px solid black;
   border-radius: 8px;
-  
 }
 
 /*CSS for page 2*/
@@ -305,6 +304,16 @@ tr:hover td{
   background-color: #FFF1CB;
 } 
 
+#video1{
+  clear: both;
+  display: none;
+	float: left;
+	width: 70%;
+  margin: 48px;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
 footer{
   clear: both;
   background-color: #4D774E;
@@ -314,7 +323,7 @@ footer{
   color: #fff;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 414px) {
 	body {
 		background-color: #CCC;
   }
@@ -339,9 +348,24 @@ footer{
   }
 }
 
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 415px) and (max-width: 768px) {
 	body {
 		background-color: pink;
+  }
+  
+  #video1{
+    display: block;
+  }
+  
+  #main-fluid {
+    display: none;
+  }
+   
+  #column1-fluid {
+    display: none;
+  }
+  #column2-fluid {
+    display: none;
   }
 }
 
