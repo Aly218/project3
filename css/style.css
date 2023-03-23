@@ -241,7 +241,7 @@ li{
   font-size: 50px;
 }
 
-#page3-h2{
+.page3-h2{
   float: left;
   padding: 0 0 0 15px;
 }
@@ -314,6 +314,10 @@ tr:hover td{
   border-radius: 8px;
 }
 
+#page3-h2{
+  display: none;
+}
+
 footer{
   clear: both;
   background-color: #4D774E;
@@ -334,7 +338,7 @@ footer{
   color: #996b09;
   }
 
-  #page3-h2{
+  .page3-h2{
     font-size: 10px;
     color: #996b09;
   }
@@ -355,6 +359,9 @@ footer{
   
   #video1{
     display: block;
+    float: left;
+    width: 90%;
+    margin: 5% 5% 5% 5%;
   }
   
   #main-fluid {
@@ -367,6 +374,13 @@ footer{
   #column2-fluid {
     display: none;
   }
+  
+  #page3-h2{
+    display: block;
+    float: left;
+    padding: 15px;
+  }
+  
 }
 
 /*CSS for page 4*/
