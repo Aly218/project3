@@ -12,9 +12,6 @@ function init(){
 		}
 	};
   
-  
-   
-
 	var myMap = new google.maps.Map(el, mapOptions);
 
   var marker = new google.maps.Marker({
