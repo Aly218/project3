@@ -314,6 +314,8 @@ tr:hover td{
   border-radius: 8px;
 }
 
+
+
 #page3-h2{
   display: none;
 }
@@ -359,10 +361,26 @@ footer{
   
   #video1{
     display: block;
-    float: left;
-    width: 90%;
-    margin: 5% 5% 5% 5%;
+    #float: left;
+    #width: 90%;
+    #margin: 5% 5% 5% 5%;
   }
+  
+  #i-div {
+  position: relative;
+  padding-bottom: 56.25%; /* this is 16:9 aspect ratio */
+  padding-top: 25px;
+  height: 0;
+  margin: 5% 5% 5% 5%;
+}
+    
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+}
   
   #main-fluid {
     display: none;
