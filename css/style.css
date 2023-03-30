@@ -56,7 +56,8 @@ li{
 #main-navbar ul li a:hover {
   text-decoration: underline;
   text-decoration-color: #9DC88D;
-  text-decoration-thickness: 5px;
+  text-decoration-thickness: 3px;
+  text-underline-position: under;
 }
 #onpage {
   background-color: #9DC88D;
