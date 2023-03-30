@@ -8,9 +8,45 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lilita+One&display=swap" rel="stylesheet">
-  <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
-  <script async src="js/script.js"></script>  
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>  
+  
 </head>
+  <style type="text/css">
+		.slideshow {
+      clear: both;
+			max-width: 600px;
+			margin: 0 auto;
+		}
+    
+		.slideshow ul {
+			margin:0;
+		}
+    
+    img {
+      width: 480px;
+      margin: 48px;
+    }
+    
+    .bx-wrapper .bx-caption {
+      position: fixed;
+      background: rgb(126 228 81 / 75%);
+      margin-top: 605px;
+    }
+    
+    .bx-wrapper .bx-caption span {
+      color: black;
+      text-align: center;      
+    }
+    
+    .bx-wrapper{
+      max-width: 300px;
+      background-color: #FAF9F6;  
+      border: 5px solid #FAF9F6;
+    }
+	</style>
 <body>
   <header>
     <nav id="main-navbar">
@@ -29,11 +65,15 @@
       <h1 id="page1-h1">Project: Aztec Chess Set</h1>
     </div>
     <div id="container-2">
-      <img class="p1" src="images/p1.png" alt="picture of a laser cut pyramid">
-      <img class="p2" src="images/p2.png" alt="picture of a piece of wood with an Aztec temple carved onto it by a 3D carver">
-      <img class="p3" src="images/p3.png" alt="picture of a handmade chess set">
-      <img class="p4" src="images/p4.png" alt="picture of a chess board and chess pieces">
-    </div>   
+      <div class="slideshow">
+        <ul class="bxslider">
+          <li><img src="images/p1.png" title="I created this with a laser cutter. It is the cover of the chess set."/></li>
+          <li><img src="images/p2.png" title="I made this with a 3D carver which took about 2 hours. It is the base of the chess set."/></li>
+          <li><img src="images/p3.png" title="Full chess set."/></li>
+          <li><img src="images/p4.png" title="I made the chess board with the laser cutter and I designed and 3D printed the chess pieces."/></li>
+        </ul>
+      </div>   
+    </div>
     <div id="container-3">
       <h3>Final Product</h3>
       <p>For my final project I created a chess set and a case for the chess set. I used three different machines for this project including a laser cutter, 3D printer, and 3D carver.</p>
@@ -55,6 +95,15 @@
   <footer>
     <p>nguadarrama@hawk.iit.edu</p>
   </footer>  
+  <script type="text/javascript">
+		$(function(){
+    $('.bxslider').bxSlider({
+      mode: 'fade',
+      slideWidth: 600,
+      captions: true
+    });
+  });
+	</script>
 </body>
 </html>
 

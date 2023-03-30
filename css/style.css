@@ -89,6 +89,7 @@ li{
   height: 200px;
   margin: 0;
   margin-top: 5%;
+  margin-bottom: 5%;
   background-image: url('../images/background.png');
 }
 
@@ -101,10 +102,10 @@ li{
 }
 
 #container-2 {
-  background-color: #FAF9F6;
+  #background-color: #FAF9F6;
 	float: left;
-	width: 480px;
-	margin: 48px 28.8px 0 48px;
+  width: 65%;
+  margin: 0 0 0 36px;
 }
 
 .p1{
@@ -139,8 +140,8 @@ li{
 #container-3{
   background-color: #FAF9F6;
 	float: left;
-	width: 288px;
-  margin: 48px 48px 48px 28.8px;
+	width: 20%;
+  margin: 0 48px 0 20px;
   padding: 2%;
 }
 
